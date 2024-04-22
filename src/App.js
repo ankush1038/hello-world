@@ -7,13 +7,16 @@ import Welcome from './components/Welcome'
 import Message from './components/Message'
 import Counter from './components/Counter'
 import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
     <div className="App">
+       <ParentComponent /> 
 
-      <EventBind />
-        {/*<FunctionClick />
+
+      {/*<EventBind />
+        <FunctionClick />
 
       <Counter />
       
