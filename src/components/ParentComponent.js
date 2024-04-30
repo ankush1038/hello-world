@@ -21,7 +21,6 @@ greetParent(childName) {
         return(
             <div>
                 <ChildComponent greetHandler={this.greetParent} />
-
             </div>
         )
     }
